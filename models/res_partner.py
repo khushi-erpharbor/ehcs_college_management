@@ -5,7 +5,7 @@ class Partner(models.Model):
     _inherit = 'res.partner'
 
     is_student = fields.Boolean("Student", default=True)
-    student_ref = fields.Char("Stud REF")
+    student_ref = fields.Char("Stud REFERENCE")
     phone = fields.Char("Phone",required=True)
     mobile = fields.Char(" Mobile")
     # is_teacher = fields.Boolean(string="Teacher",default=True)
