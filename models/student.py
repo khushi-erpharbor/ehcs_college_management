@@ -10,7 +10,7 @@ class Student(models.Model):
     # _order = "name"
     _rec_name = "name"
 
-    name = fields.Char(string="Name",required=1)
+    name = fields.Char(string="Student Name",required=1)
     rollnumber = fields.Integer(string="Roll Number")
     email = fields.Char(string="Email")
     standard = fields.Char(string="Standard")

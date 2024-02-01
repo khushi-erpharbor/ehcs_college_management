@@ -1,7 +1,7 @@
 from odoo import api,fields,models,_
 
 
-class Partner(models.Model):
+class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     is_student = fields.Boolean("Student", default=True)
